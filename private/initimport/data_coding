@@ -1,0 +1,7 @@
+name,desc
+resourceType,资源类型
+roomType,通讯组类型
+bulletinType,公告类型
+gender,性别
+AVATAR_PATH,用户头像路径
+customerServiceAlgorithm,客服分配算法

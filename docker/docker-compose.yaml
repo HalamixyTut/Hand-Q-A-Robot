@@ -1,0 +1,33 @@
+version: "3"
+services:
+  mongo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mongodb-bot
+    hostname: mongodb-bot
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - /opt/mongodb/db:/data/db
+      - /etc/localtime:/etc/localtime
+    expose:
+      - "27017"
+    networks:
+      - "AiNetwork"
+
+  redis:
+    container_name: redis-bot
+    hostname: redis-bot
+    image: redis:4.0.11
+    ports:
+      - "6379:6379"
+    expose:
+      - "6379"
+    networks:
+      - "AiNetwork"
+
+networks:
+  AiNetwork:
+    driver: bridge

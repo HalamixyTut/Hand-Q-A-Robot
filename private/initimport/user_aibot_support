@@ -1,0 +1,4 @@
+﻿username,email,phone,password,gender,roles,isActivated
+张三,san.zhang@aibot-cloud.com,11100000001,test123,M,user,Y
+李四,si.li@aibot-cloud.com,12100000002,test123,F,user,Y
+王五,wu.wang@aibot-cloud.com,13100000003,test123,F,user,Y

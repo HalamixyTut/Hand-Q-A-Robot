@@ -1,0 +1,6 @@
+username,email,phone,password,gender,roles,isActivated
+admin,admin@aibot-cloud.com,11000000000,aibot$123,M,admin,Y
+aibot,jemarks@aibot-cloud.com,13000000000,aibot@2019,F,bot,N
+ld_001,ld_001@aibot-cloud.com,18888888888,ld_001,F,LdSupport,Y
+ld_002,ld_002@aibot-cloud.com,18888888888,ld_002,F,LdSupport,Y
+ld_003,ld_003@aibot-cloud.com,18888888888,ld_003,M,LdSupport,Y

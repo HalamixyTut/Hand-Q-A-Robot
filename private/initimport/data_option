@@ -1,0 +1,16 @@
+cname,name,mean,desc
+resourceType,button,按钮,按钮
+resourceType,menu,菜单,菜单
+resourceType,icon,图标,图标
+roomType,public,公共组,公共组
+roomType,private,私有组,私有组
+bulletinType,newFunction,新功能发布,新功能发布
+bulletinType,systemMaintain,系统维护,系统维护
+bulletinType,marketActivity,市场活动,市场活动
+gender,M,男,男性
+gender,F,女,女性
+userType,normal,系统用户,系统用户
+userType,interface,接口用户,接口用户
+customerServiceAlgorithm,circle,循环排队,依次循环算法
+customerServiceAlgorithm,maxFreeTime,最长空闲时间,上次占线时间越短越优先分配
+customerServiceAlgorithm,minResponseTimes,最少接答次数,接答次数越少越优先分配
